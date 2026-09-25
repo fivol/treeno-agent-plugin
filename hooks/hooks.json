@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'Treeno memory plugin: the treeno MCP server is your long-term memory about this user. Call its memory_context tool once now (before your first answer) and follow the memory policy it returns: recall with memory_search, save only what will matter later with memory_write. If the treeno tools are missing or need authentication, tell the user to run /mcp, sign in to Treeno and choose AI memory folder only.'"
+          }
+        ]
+      }
+    ]
+  }
+}
