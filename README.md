@@ -37,7 +37,7 @@ but that folder.
 ## What it adds
 
 - **MCP server** `treeno` (`https://api.treeno.org/mcp`, OAuth) with the memory tools
-  `memory_context`, `memory_search`, `memory_write`, plus the regular Treeno tree tools.
+  `memory_context`, `memory_search`, `memory_write`, `memory_delete` (with "AI memory folder only" that is the whole toolset; a whole-database grant adds the Treeno tree tools).
 - **Skill** `treeno-memory` telling the agent when to load, search and save memory.
 - **SessionStart hook** (Claude Code and Codex) that reminds the agent to load its memory
   at the start of every session.
