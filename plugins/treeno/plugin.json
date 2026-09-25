@@ -1,0 +1,36 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "treeno",
+  "version": "1.1.0",
+  "description": "Long-term memory for your AI agent in your Treeno notes: conversation journal, facts, decisions and to-dos.",
+  "author": {
+    "name": "Treeno",
+    "url": "https://treeno.org"
+  },
+  "homepage": "https://treeno.org",
+  "repository": "https://github.com/fivol/treeno-agent-plugin",
+  "license": "MIT",
+  "keywords": ["memory", "notes", "mcp", "treeno"],
+  "extensions": {
+    "com.openai": {
+      "hooks": "./hooks/hooks.json",
+      "interface": {
+        "displayName": "Treeno memory",
+        "shortDescription": "Long-term memory in your Treeno notes",
+        "longDescription": "Keeps a short journal of your conversations, remembers facts about you, decisions, important details and to-dos in the \"🧠 AI memory\" folder of your Treeno notes, and looks them up in later conversations. You can read and edit everything in the Treeno app.",
+        "developerName": "Treeno",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://treeno.org",
+        "privacyPolicyURL": "https://treeno.org/privacy",
+        "defaultPrompt": [
+          "What do you remember about me from Treeno?",
+          "Save the decisions from this conversation to Treeno."
+        ],
+        "brandColor": "#3B82F6",
+        "composerIcon": "./assets/logo.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

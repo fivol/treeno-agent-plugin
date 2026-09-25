@@ -8,8 +8,8 @@
   "plugins": [
     {
       "name": "treeno",
-      "source": "./",
-      "description": "Long-term memory for Claude Code in your Treeno notes: conversation journal, facts, decisions and to-dos."
+      "source": "./plugins/treeno",
+      "description": "Long-term memory for your AI agent in your Treeno notes: conversation journal, facts, decisions and to-dos."
     }
   ]
 }

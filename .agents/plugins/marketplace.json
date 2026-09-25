@@ -1,0 +1,20 @@
+{
+  "name": "treeno",
+  "interface": {
+    "displayName": "Treeno"
+  },
+  "plugins": [
+    {
+      "name": "treeno",
+      "source": {
+        "source": "local",
+        "path": "./plugins/treeno"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
